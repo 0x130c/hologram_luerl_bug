@@ -33,6 +33,7 @@ defmodule HologramSkeleton.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
+      {:luerl, "~> 1.5.1"},
       {:phoenix, "~> 1.7.20"},
       {:phoenix_ecto, "~> 4.5"},
       {:ecto_sql, "~> 3.10"},
